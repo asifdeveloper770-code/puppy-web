@@ -1,0 +1,88 @@
+import { ServiceItem } from '../types';
+
+export const SERVICES_DATA: ServiceItem[] = [
+  {
+    id: 'health-cert',
+    title: 'Comprehensive Vet Certification',
+    shortDesc: 'Complete head-to-paw veterinary examinations, age-appropriate vaccinations, and deworming protocols.',
+    fullDesc: 'Before any puppy leaves our sanctuary, they receive a thorough 15-point medical checkup by licensed veterinarians. This includes cardiac auscultation, hip/patella palpation, ophthalmology exam, age-appropriate core vaccinations, and a signed Official Health Certificate.',
+    iconName: 'ShieldCheck',
+    highlights: [
+      'Signed 15-point Veterinary Health Clearance',
+      'First & second rounds of DHPP & Bordetella vaccinations',
+      'Triple broad-spectrum deworming cycle',
+      '1-Year congenital & genetic health guarantee',
+    ],
+    badge: 'Standard on All Puppies',
+  },
+  {
+    id: 'socialization',
+    title: 'Early Socialization & Crate Starting',
+    shortDesc: 'Gentle Bio-Sensor sensory training and early crate & potty foundation in loving home surroundings.',
+    fullDesc: 'Our puppies undergo Early Neurological Stimulation (ENS) from days 3 to 16, followed by desensitization to everyday home sounds (vacuums, television, doorbells) and gentle playtime with children and gentle adult dogs. They arrive already accustomed to night-time crate rest.',
+    iconName: 'Sparkles',
+    highlights: [
+      'Early Neurological Stimulation (ENS) protocol',
+      'Daily sensory & sound habituation exercises',
+      'Grass pee-pad and outdoor potty foundation',
+      'Separation comfort and gentle crate introduction',
+    ],
+    badge: 'Ethical Home Raised',
+  },
+  {
+    id: 'travel-delivery',
+    title: 'Safe Pet Transport & Flight Nanny',
+    shortDesc: 'Stress-free, climate-regulated doorstep courier or in-cabin flight nanny transport directly to you.',
+    fullDesc: 'Whether you live in our area or across the nation, we ensure your puppy travels safely. We provide verified private ground delivery in sanitised climate-controlled vehicles or a personal Flight Nanny who holds your puppy safely inside the airplane cabin throughout the entire journey.',
+    iconName: 'Truck',
+    highlights: [
+      'In-cabin Flight Nanny service (never in cargo)',
+      'Live GPS and hourly video updates during transit',
+      'Airline-approved travel carrier included',
+      'Nationwide door-to-door hand delivery',
+    ],
+    badge: 'Nationwide Available',
+  },
+  {
+    id: 'nutrition-support',
+    title: 'Lifetime Nutrition & Care Guidance',
+    shortDesc: 'Personalized dietary starter kits, breed growth charts, and 24/7 puppy parent care advice.',
+    fullDesc: 'Adopting a puppy is a lifelong bond. We provide a starter bag of super-premium puppy kibble, feeding schedules tailored to your pup’s expected adult weight, and a direct WhatsApp/phone helpline to our canine specialists for any questions during their puppyhood.',
+    iconName: 'HeartHandshake',
+    highlights: [
+      'Complimentary 5-lb bag of premium organic starter kibble',
+      'Custom week-by-week nutritional & weight guide',
+      'Lifetime 24/7 behavioral & health support line',
+      'Access to our private PuppyHaven adoptive families network',
+    ],
+    badge: 'Lifetime Support',
+  },
+  {
+    id: 'pedigree-chip',
+    title: 'Microchipping & Pedigree Registry',
+    shortDesc: 'Universal ISO microchip pre-implanted with lifetime registration and verified ancestral lineage.',
+    fullDesc: 'Every puppy comes pre-chipped with an internationally recognized ISO microchip registered under your name at no additional cost. You also receive verified registration paperwork certifying purebred bloodlines and ancestral lineages free from inbreeding.',
+    iconName: 'Award',
+    highlights: [
+      'Pre-activated universal ISO microchip',
+      'Lifetime emergency lost-pet recovery registration',
+      'Official AKC / DCR pedigree papers',
+      'Documented 3-generation lineage tree',
+    ],
+    badge: 'Complete Identity',
+  },
+  {
+    id: 'starter-kit',
+    title: 'Deluxe "Welcome Home" Starter Pack',
+    shortDesc: 'Comfort blanket with mama’s scent, favorite chew toys, harness, leash, and grooming kit.',
+    fullDesc: 'We ease your puppy’s transition to their new home by providing a deluxe welcome bundle containing a soft fleece blanket bearing their mother and littermates’ comforting scent, teething chews, natural treats, grooming brush, and a soft adjustable harness.',
+    iconName: 'Gift',
+    highlights: [
+      'Comfort blanket infused with mother’s scent for easy sleeping',
+      'Teething safe chew toys and natural healthy treats',
+      'Ergonomic starter harness and training leash',
+      'Step-by-step 30-day new puppy owner handbook',
+    ],
+    badge: 'Included Free',
+  },
+];

@@ -1,0 +1,6 @@
+{
+  "name": "PuppyHaven - Purebred Puppies & Pet Care",
+  "description": "Premium ethical puppy sanctuary landing website featuring purebred puppies with prices and breed details, expert care services, about us, and contact booking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
